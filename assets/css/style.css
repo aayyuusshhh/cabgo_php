@@ -1,0 +1,478 @@
+/* =========================================
+   CABGO - GLOBAL STYLESHEET
+========================================= */
+
+
+/* =========================================
+   ROOT COLORS
+========================================= */
+
+:root {
+
+    --primary-color: #ffc107;
+
+    --dark-color: #0b1c2c;
+
+    --secondary-dark: #163b5c;
+
+    --light-bg: #f4f6f9;
+
+    --white: #ffffff;
+
+    --text-color: #333333;
+
+}
+
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: var(--light-bg);
+
+    color: var(--text-color);
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+
+    background: var(--dark-color);
+
+}
+
+
+.navbar-brand {
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+    color: var(--primary-color) !important;
+
+}
+
+
+.navbar-brand i {
+
+    margin-right: 5px;
+
+}
+
+
+.navbar .nav-link {
+
+    color: #ffffff !important;
+
+    margin-left: 10px;
+
+}
+
+
+.navbar .nav-link:hover {
+
+    color: var(--primary-color) !important;
+
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.btn-primary-custom {
+
+    background: var(--primary-color);
+
+    color: #000;
+
+    border: none;
+
+    padding: 10px 25px;
+
+    border-radius: 7px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+
+.btn-primary-custom:hover {
+
+    background: #e0a800;
+
+    color: #000;
+
+    transform: translateY(-2px);
+
+}
+
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero-section {
+
+    min-height: 550px;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(11, 28, 44, 0.85),
+            rgba(11, 28, 44, 0.85)
+        );
+
+    color: white;
+
+}
+
+
+.hero-section h1 {
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+}
+
+
+.hero-section p {
+
+    font-size: 18px;
+
+    color: #dddddd;
+
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.section {
+
+    padding: 70px 0;
+
+}
+
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+
+.section-title h2 {
+
+    font-weight: bold;
+
+}
+
+
+.section-title p {
+
+    color: #777;
+
+}
+
+
+/* =========================================
+   CARDS
+========================================= */
+
+.custom-card {
+
+    border: none;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+
+        0 4px 15px
+        rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+
+}
+
+
+.custom-card:hover {
+
+    transform: translateY(-7px);
+
+    box-shadow:
+
+        0 10px 25px
+        rgba(0,0,0,0.12);
+
+}
+
+
+/* =========================================
+   CAB CARDS
+========================================= */
+
+.cab-card img {
+
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+
+.cab-price {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #198754;
+
+}
+
+
+/* =========================================
+   DASHBOARD
+========================================= */
+
+.dashboard-card {
+
+    border: none;
+
+    border-radius: 12px;
+
+    box-shadow:
+
+        0 3px 15px
+        rgba(0,0,0,0.06);
+
+    transition: 0.3s;
+
+}
+
+
+.dashboard-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+/* =========================================
+   STATUS BADGES
+========================================= */
+
+.status {
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+
+.pending {
+
+    background: #fff3cd;
+
+    color: #856404;
+
+}
+
+
+.confirmed {
+
+    background: #cfe2ff;
+
+    color: #084298;
+
+}
+
+
+.completed {
+
+    background: #d1e7dd;
+
+    color: #0f5132;
+
+}
+
+
+.cancelled {
+
+    background: #f8d7da;
+
+    color: #842029;
+
+}
+
+
+/* =========================================
+   FORMS
+========================================= */
+
+.form-control,
+.form-select {
+
+    padding: 10px 12px;
+
+    border-radius: 7px;
+
+}
+
+
+.form-control:focus,
+.form-select:focus {
+
+    border-color: var(--primary-color);
+
+    box-shadow:
+
+        0 0 0 0.2rem
+        rgba(255, 193, 7, 0.25);
+
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+
+    background: var(--dark-color);
+
+    color: white;
+
+    padding: 40px 0;
+
+}
+
+
+.footer a {
+
+    color: #ccc;
+
+}
+
+
+.footer a:hover {
+
+    color: var(--primary-color);
+
+}
+
+
+/* =========================================
+   TABLES
+========================================= */
+
+.table-box {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow:
+
+        0 3px 15px
+        rgba(0,0,0,0.06);
+
+}
+
+
+/* =========================================
+   ALERT
+========================================= */
+
+.alert {
+
+    border-radius: 8px;
+
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+
+    .hero-section h1 {
+
+        font-size: 35px;
+
+    }
+
+
+    .hero-section {
+
+        min-height: 450px;
+
+        text-align: center;
+
+    }
+
+
+    .section {
+
+        padding: 50px 0;
+
+    }
+
+
+    .navbar .nav-link {
+
+        margin-left: 0;
+
+    }
+
+
+}

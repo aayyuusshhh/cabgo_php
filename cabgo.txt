@@ -1,0 +1,59 @@
+cabgo/
+│
+├── index.php
+├── login.php
+├── register.php
+├── logout.php
+│
+├── config/
+│   └── database.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── navbar.php
+│   ├── auth.php
+│   └── admin_auth.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   └── images/
+│
+├── user/
+│   ├── dashboard.php
+│   ├── profile.php
+│   ├── book-cab.php
+│   ├── my-bookings.php
+│   ├── booking-details.php
+│   ├── cancel-booking.php
+│   └── edit-profile.php
+│
+├── admin/
+│   ├── dashboard.php
+│   ├── login.php
+│   │
+│   ├── users/
+│   │   ├── index.php
+│   │   ├── add.php
+│   │   ├── edit.php
+│   │   └── delete.php
+│   │
+│   ├── cabs/
+│   │   ├── index.php
+│   │   ├── add.php
+│   │   ├── edit.php
+│   │   └── delete.php
+│   │
+│   └── bookings/
+│       ├── index.php
+│       ├── view.php
+│       ├── update-status.php
+│       └── delete.php
+│
+└── database/
+    └── cabgo.sql
